@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#buttons {
+    margin-top: 15px;
+}
+
+#result {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+body {
+	background-color: lightblue;
+    text-align: center;
+	
+}
+h1 {
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  display: inline-block; /* ブロック要素として指定 */
+  background-clip: text; /* テキストに対して背景をクリップ */
+  color: transparent; /* テキストの色を透明に設定 */
+}
+
+.guide {
+    border: 10px double;
+    width: 51%;
+    margin: 0 auto;
+} 
+.topimage {
+	max-width: 70%;
+	margin: 0 auto;;
+}
+.topimage img{
+	max-width: 100%;
+}
+.name {
+	margin: 30px;
+}
